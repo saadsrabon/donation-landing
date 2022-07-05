@@ -1,0 +1,120 @@
+/* Global Css */
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    padding: 150px 0;
+}
+
+.center{
+    text-align: center;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.heading{ 
+    font-size: 65px;
+    font-weight: 700px;
+    line-height: 80px;
+    
+}
+.secondary-heading{
+    font-size: 45px;
+    font-weight: 700px;
+    line-height: 55px;
+}
+.small-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 10px 0px;
+}
+.white{
+    color:#ffff;
+}
+.gray{
+    color: #707070;
+}
+.donate-btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #FF5959;
+    color: #ffff;
+    padding: 18px 30px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 20px;
+}
+.col-4{
+    width: 25%;
+    box-sizing: border-box;
+}
+.col-3{
+width: 20%;
+
+}
+
+/* topbanner Css starts from here */
+.top-banner{
+background: url(images/new-bg.png) center center no-repeat;
+background-size: cover;
+
+
+}
+.top-banner .inner-banner{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+/* donate today starts */
+.item-container{
+    display: flex;
+    width: 80%;
+    margin: 80px auto;
+ 
+}
+.item-box{
+    background-color: #FAFAFA;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-sizing: border-box;
+    border: 2px solid #ffff;
+}
+.item-box:hover{
+    background: #FFEEEE;
+    color:#FF5959;
+    border: 2px solid #FF5959;
+    
+}
+.item-box h2{
+  font-size: 30px;
+  font-weight: 700px;
+  text-align: center;
+}
+
+#donate-input{
+    border: none;
+    border-bottom: 1px solid #707070;
+    outline: none;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    
+}
