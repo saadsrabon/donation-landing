@@ -12,6 +12,9 @@ section{
 .center{
     text-align: center;
 }
+.left{
+    text-align: left;
+}
 .container{
     width: 80%;
     margin: 0 auto;
@@ -22,10 +25,23 @@ section{
     line-height: 80px;
     
 }
+.flex{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    gap: 20px;
+}
 .secondary-heading{
     font-size: 45px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 55px;
+  
+}
+.small-heading{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    margin: 5px 0;
 }
 .small-text{
     font-family: 'Poppins', sans-serif;
@@ -39,6 +55,10 @@ section{
 }
 .gray{
     color: #707070;
+}
+.grays{
+    color: #707070;
+    margin-bottom: 40px;
 }
 .donate-btn{
     display: inline-block;
@@ -57,11 +77,15 @@ section{
 .col-4{
     width: 25%;
     box-sizing: border-box;
+    padding: 50px 25px;
+
+    
 }
 .col-3{
 width: 20%;
 
 }
+/* ************* */
 
 /* topbanner Css starts from here */
 .top-banner{
@@ -117,4 +141,21 @@ background-size: cover;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     
+}
+
+/* Donate Plan Section Css */
+.donate-plan{
+    padding-top: 0px ;
+    padding-bottom: 80px;
+}
+#food{
+    background-color:rgba(79, 157, 166, 0.1) ;
+  
+}
+#shelter{
+   background:rgba(255, 89, 89, 0.1);
+  
+}
+#education{
+   background:  #FFF4D6;
 }
