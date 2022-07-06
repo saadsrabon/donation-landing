@@ -50,6 +50,9 @@ section{
     line-height: 28px;
     margin: 10px 0px;
 }
+.primary{
+    color: #FF5959;
+}
 .white{
     color:#ffff;
 }
@@ -177,7 +180,7 @@ background-size: cover;
 }
 
 .main{
-  margin: 10px 0px;
+  margin: 25px 0px;
 }
 .sponsor-btn{
     display:inline-block ;
@@ -221,4 +224,8 @@ background-size: cover;
     color: #ffff;
     
 }
-
+footer{
+    width: 100%;
+    background: #0B0D17;
+    padding: 50px 50px 20px 50px ;
+}
