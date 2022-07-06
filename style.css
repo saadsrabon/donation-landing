@@ -190,4 +190,35 @@ background-size: cover;
 }
 /* Sponsor Section Done */
 
-/*  */
+/* Get Updates Section  */
+
+.subcription-form{
+    padding: 60px 30px;
+    background: #FFF4D6;
+    width: 50%;
+    margin: 0 auto
+
+}
+
+.sub-input{
+    background: #D9D9D9;
+    padding: 18px 50px;
+    margin: 20px -10px;
+    border-radius: 5px;
+    display: inline-block;
+    outline: none;
+    border: none;
+}
+.btn2{
+    padding: 16px 50px;
+    margin: 18px -10px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    background-color: #FF5959;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px;
+    color: #ffff;
+    
+}
+
